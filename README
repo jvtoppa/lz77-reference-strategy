@@ -1,4 +1,6 @@
 Creating an RLZ reference through greedy parsing of LZ77 phrases. Change the macros in /build/count.cpp to configure dictionary size and k-neighborhood size.
 
 To run, change the name of the file you want to find the reference to banana.txt (for now, atleast) and insert it in /data/. Run the makefile in the terminal (type make), then
-run the command python3 run.py .
+run the command python3 run.py.
+
+Special thanks to Kärkkäinen et al. for the KKP code. Check out the original code @ https://www.cs.helsinki.fi/group/pads/lz77.html 
