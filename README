@@ -1,4 +1,4 @@
-R length: 2468648
+Creating an RLZ reference through LZ77 phrases. Change the macros in /build/count.cpp to configure dictionary size and k-neighborhood size.
 
-No. of RLZ rules: 1637250
-
+To run, change the name of the file you want to find the reference to banana.txt (for now, atleast) and insert it in /data/. Run the makefile in the terminal (type make), then
+run the command python3 run.py .
